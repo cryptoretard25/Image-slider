@@ -110,7 +110,7 @@ class Slider {
     log(this.getSlideIndex())
   }
   //Listeners
-  currentSlide = ()=>{
+  currentSlide = (e)=>{
     const index = e.target.dataset.index;
     this.chooseSlide(index)
   }
